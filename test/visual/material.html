@@ -4,11 +4,8 @@
   <meta charset="UTF-8">
 
   <script src="../../../webcomponentsjs/webcomponents-lite.js"></script>
-  <script>
-    const theme = window.location.search.replace(/.*theme=(\w+).*/, '$1') || 'lumo';
-    document.write(`<link rel="import" href="../../theme/${theme}/vaadin-checkbox.html">`);
-    document.write(`<link rel="import" href="../../theme/${theme}/vaadin-checkbox-group.html">`);
-  </script>
+  <link href="../../theme/material/vaadin-checkbox.html" rel="import">
+  <link href="../../theme/material/vaadin-checkbox-group.html" rel="import">
 </head>
 
 <body>
